@@ -1,12 +1,12 @@
 export const companyName = "Financio"
 export const quiz =  {
-    "quizTitle": "Financial Literacy Test",
-    "quizSynopsis": "Getting through the financial world is hard to manage with so many different moving parts. Here at Financio our goal is to help get your better understanding of your own financial situation so that you can work to improve it. To better understand where you are at, we have created a little quiz to see what areas you need the most help in",
+    "quizTitle": "Financial Literacy Quiz",
+    "quizSynopsis": "You will have 1 minute to complete the quiz. This quiz contains questions on the following topics: Taxes, Credit, Savings, Budgeting, Loans, Banking, and Finance. ",
     "progressBarColor": "#9de1f6", 
-    "nrOfQuestions": "4",
+    "nrOfQuestions": "8",
     "questions": [
       {
-        "question": "What is not taxable in this list?",
+        "question": "hat is not taxable from this list?",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
@@ -18,7 +18,7 @@ export const quiz =  {
         "correctAnswer": "4",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "20"
+        "point": "10"
       },
       {
         "question": "What is interest?",
@@ -27,20 +27,20 @@ export const quiz =  {
         "answers": [
           "The amount you need to pay to pay off your debt.",
           "The amount of yearly money you need to pay off your debt.",
-	  "The amount you need to pay to the bank every year for taking out lone.",
+	  "The amount you need to pay to the bank every year for taking out loan.",
 	  "How much you have to pay up front to get a lone",
         ],
         "correctAnswer": "3",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "20"
+        "point": "10"
       },
       {
         "question": "What can not help you raise your credit score?",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
-          "Pay offing your credit card a day after the monthly payment is due.",
+          "Paying off your credit card a day after the monthly payment is due.",
           "Paying off your credit card before the payment is due.",
 	  "Opening a few credit cards.",
 	  "Monitoring your spending and not exceeding your budget."
@@ -63,11 +63,11 @@ export const quiz =  {
         "correctAnswer": "2",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "30"
+        "point": "10"
       },
       {
-        "question": "What can’t lead you to getting in debt?",
-        "questionType": "Text",
+        "question": "What can't lead you to getting into debt?",
+        "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
           "Opening many credit cards.",
@@ -78,7 +78,7 @@ export const quiz =  {
         "correctAnswer": "4",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "20"
+        "point": "10"
       },
       {
         "question": "What is not a benefit of opening a savings account?",
@@ -93,11 +93,11 @@ export const quiz =  {
         "correctAnswer": "1",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "20"
+        "point": "10"
       },
 	{
         "question": "Is having a savings account always free?",
-        "questionType": "Text",
+        "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
           "Yes",
@@ -106,11 +106,11 @@ export const quiz =  {
         "correctAnswer": "2",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "20"
+        "point": "10"
       },
 	{
         "question": "What are not something that is a part of your living expenses?",
-        "questionType": "Text",
+        "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
           "Rent",
@@ -121,11 +121,11 @@ export const quiz =  {
         "correctAnswer": "4",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "20"
+        "point": "10"
       },
 	{
         "question": "Do all savings accounts have the same benefits?",
-        "questionType": "Text",
+        "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
           "Yes",
@@ -134,11 +134,11 @@ export const quiz =  {
         "correctAnswer": "2",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "20"
+        "point": "10"
       },
 	{
-        "question": "What is a good method of budgeting using this equation (Needs – Wants -Savings)?",
-        "questionType": "Text",
+        "question": "What is a good method of budgeting using this equation (Needs – Wants – Savings)?",
+        "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
           "30-20-50",
@@ -149,7 +149,7 @@ export const quiz =  {
         "correctAnswer": "4",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "20"
+        "point": "10"
       },
 
 

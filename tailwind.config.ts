@@ -24,7 +24,10 @@ const config = {
           1: '#0a0e1a'
         },
         fGreen: {
-          1: '#5ab963'
+          1: '#238636'
+        },
+        fEggWhite: {
+          1: '#fafafa'
         },
         fill: {
           1: "rgba(255, 255, 255, 0.10)",

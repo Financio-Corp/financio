@@ -33,10 +33,10 @@ const FinanceTool = () => {
             <div class="text-center font-bold">
             Results<br />
             </div>
-            Amount Towards Needs: <strong>${needAmount.toFixed(2)}</strong><br>
-            Amount Towards Savings: <strong>${savingAmount.toFixed(2)}</strong><br>
-            Amount Towards Wants: <strong>${wantsAmount.toFixed(2)}</strong><br>
-            Amount Towards Debt: <strong>${debtAmount.toFixed(2)}</strong><br>
+            Amount Towards Needs: <strong>$ ${needAmount.toFixed(2)}</strong><br>
+            Amount Towards Savings: <strong>$ ${savingAmount.toFixed(2)}</strong><br>
+            Amount Towards Wants: <strong>$ ${wantsAmount.toFixed(2)}</strong><br>
+            Amount Towards Debt: <strong>$ ${debtAmount.toFixed(2)}</strong><br>
             Months Remaining to Pay Off Debt: <strong>${monthsToPayOffDebit}</strong><br>
             Months Remaining to Reach Saving Goal: <strong>${monthsToReachSavingsGoal}</strong><br><br>
             For more info and help go to our <strong>AI tool</strong> to get further ahead in your financial goals.
@@ -72,23 +72,23 @@ const FinanceTool = () => {
                     <input type="number" min="0" max="100" id="wants" value={wants} onChange={(e) => setWants(e.target.value)} />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="debits">Debit (%):</label>
+                    <label htmlFor="debits">Debt (%):</label>
                     <input type="number" min="0" id="debits" value={debits} onChange={(e) => setDebits(e.target.value)} />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="SavingGoal">Saving Goal:</label>
+                    <label htmlFor="SavingGoal">Saving Goal: ($)</label>
                     <input type="number" min="0" id="SavingGoal" value={savingGoal} onChange={(e) => setSavingGoal(e.target.value)} />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="redebits">Remaining Debit:</label>
+                    <label htmlFor="redebits">Remaining Debt: ($)</label>
                     <input type="number" id="redebits" value={redebits} onChange={(e) => setRedeBits(e.target.value)} />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="monthly_income">Monthly Income:</label>
+                    <label htmlFor="monthly_income">Monthly Income: ($)</label>
                     <input type="number" id="monthly_income" value={monthlyIncome} onChange={(e) => setMonthlyIncome(e.target.value)} />
                 </div>
-                <div className="button-container" style={{ gridColumn: 'span 2' }}>
-                    <input type="submit" value="Submit" />
+                <div className="button-container border-2 w-[16%] px-2 mt-3" style={{ gridColumn: 'span 2' }}>
+                    <input type="submit" value="Calculate" />
                 </div>
             </form>
 
