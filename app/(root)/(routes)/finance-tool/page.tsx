@@ -10,7 +10,7 @@ const FinanceTool = () => {
     const [monthlyIncome, setMonthlyIncome] = useState('');
     const [debits, setDebits] = useState('');
     const [result, setResult] = useState('');
-
+    // @ts-expect-error unkown
     const handleSubmit = (event) => {
         event.preventDefault();
 
